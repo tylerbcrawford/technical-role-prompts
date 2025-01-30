@@ -5,6 +5,7 @@ This document outlines the best practices for creating, maintaining, and using t
 ## Prompt Creation
 
 ### 1. Role Definition
+- Follow the standardized 6-part structure
 - Be specific and focused
 - Define clear boundaries
 - Include essential responsibilities
@@ -14,20 +15,40 @@ This document outlines the best practices for creating, maintaining, and using t
 ```markdown
 # Role Title
 
-## Role Description
-- Clear and concise
-- Technical focus
-- Scope definition
+1. DIRECTIVE
+- Clear primary focus
+- Specific specialization
+- Role responsibility scope
 
-## Key Responsibilities
+2. KEY RESPONSIBILITIES
 - Task-oriented
 - Measurable outcomes
 - Technical specificity
+- Domain alignment
 
-## Required Knowledge
-- Core technologies
-- Essential skills
-- Industry standards
+3. INPUT REQUIREMENTS
+- Required information
+- Context needs
+- Technical prerequisites
+- Domain-specific inputs
+
+4. OUTPUT APPROACH
+- Response methodology
+- Solution patterns
+- Technical depth
+- Domain standards
+
+5. CONSTRAINTS
+- Technical limitations
+- Scope boundaries
+- Compliance requirements
+- Domain restrictions
+
+6. INTERACTION STYLE
+- Communication approach
+- Technical language
+- Response format
+- Domain conventions
 ```
 
 ### 3. Writing Style
@@ -35,6 +56,99 @@ This document outlines the best practices for creating, maintaining, and using t
 - Maintain professional tone
 - Be clear and unambiguous
 - Include specific examples
+- Follow domain conventions
+
+## Domain-Specific Guidelines
+
+### 1. Technical Writing
+- Focus on documentation standards
+- Include content strategy
+- Address knowledge management
+- Maintain clarity
+
+### 2. Architecture
+- Emphasize system design
+- Include integration patterns
+- Address scalability
+- Consider enterprise context
+
+### 3. Innovation
+- Focus on research methodology
+- Include prototype development
+- Address technology evaluation
+- Consider future trends
+
+### 4. Support
+- Emphasize problem resolution
+- Include service management
+- Address user assistance
+- Consider system reliability
+
+### 5. Data Science
+- Focus on analytical methods
+- Include machine learning
+- Address data processing
+- Consider statistical rigor
+
+### 6. Cloud
+- Emphasize cloud patterns
+- Include service models
+- Address operations
+- Consider security
+
+### 7. Mobile
+- Focus on platform specifics
+- Include development patterns
+- Address user experience
+- Consider performance
+
+### 8. Design
+- Emphasize user interface
+- Include interaction patterns
+- Address visual design
+- Consider usability
+
+### 9. Emerging Tech
+- Focus on innovation
+- Include ethical considerations
+- Address emerging patterns
+- Consider future impact
+
+### 10. DevOps/SRE
+- Emphasize automation
+- Include reliability practices
+- Address operational excellence
+- Consider scalability
+
+### 11. Security
+- Focus on security patterns
+- Include compliance
+- Address threat modeling
+- Consider risk management
+
+### 12. Data Analytics
+- Emphasize data insights
+- Include visualization
+- Address data quality
+- Consider business impact
+
+### 13. Cloud Infrastructure
+- Focus on cloud platforms
+- Include migration strategies
+- Address multi-cloud
+- Consider optimization
+
+### 14. Mobile Frontend
+- Emphasize mobile security
+- Include UX patterns
+- Address performance
+- Consider user needs
+
+### 15. Design Accessibility
+- Focus on inclusivity
+- Include research methods
+- Address accessibility standards
+- Consider user diversity
 
 ## Technical Accuracy
 
@@ -43,18 +157,21 @@ This document outlines the best practices for creating, maintaining, and using t
 - Cross-reference industry standards
 - Keep technology references current
 - Include version specifications
+- Follow domain best practices
 
 ### 2. Role Alignment
 - Match industry expectations
 - Reflect current practices
 - Include emerging trends
 - Consider regional variations
+- Align with domain standards
 
 ### 3. Technical Depth
 - Appropriate complexity level
 - Balanced breadth vs. depth
 - Clear prerequisite knowledge
 - Progressive skill development
+- Domain-specific expertise
 
 ## Maintenance
 
@@ -63,18 +180,21 @@ This document outlines the best practices for creating, maintaining, and using t
 - Update technology references
 - Refresh example interactions
 - Incorporate feedback
+- Monitor domain evolution
 
 ### 2. Version Control
 - Track changes
 - Document updates
 - Maintain changelog
 - Version numbering
+- Domain alignment
 
 ### 3. Quality Assurance
 - Technical review
 - Peer validation
 - User feedback
 - Performance testing
+- Domain expertise verification
 
 ## Implementation
 
@@ -83,107 +203,20 @@ This document outlines the best practices for creating, maintaining, and using t
 - Technical environment
 - Project scope
 - Success criteria
+- Domain context
 
 ### 2. Integration
 - System compatibility
 - Performance optimization
 - Error handling
 - Response validation
+- Domain standards compliance
 
 ### 3. Testing
 - Functionality verification
 - Edge case handling
 - Response consistency
 - Technical accuracy
+- Domain-specific scenarios
 
-## Documentation
-
-### 1. Format
-- Clear structure
-- Consistent styling
-- Technical precision
-- Example inclusion
-
-### 2. Content
-- Comprehensive coverage
-- Technical accuracy
-- Practical examples
-- Troubleshooting guides
-
-### 3. Maintenance
-- Regular reviews
-- Version updates
-- Feedback incorporation
-- Link validation
-
-## Security
-
-### 1. Content Security
-- Sensitive information handling
-- Access control
-- Data protection
-- Compliance requirements
-
-### 2. Implementation Security
-- Secure integration
-- Authentication handling
-- Authorization controls
-- Data sanitization
-
-## Performance
-
-### 1. Optimization
-- Response efficiency
-- Context management
-- Memory utilization
-- Processing overhead
-
-### 2. Scalability
-- Load handling
-- Resource management
-- Concurrent usage
-- System integration
-
-## Collaboration
-
-### 1. Team Coordination
-- Clear communication
-- Role assignment
-- Review process
-- Feedback loops
-
-### 2. Version Management
-- Change control
-- Release planning
-- Documentation updates
-- Migration support
-
-## Quality Control
-
-### 1. Review Process
-- Technical validation
-- Peer review
-- User testing
-- Performance monitoring
-
-### 2. Standards Compliance
-- Industry standards
-- Best practices
-- Documentation requirements
-- Security guidelines
-
-## Future-Proofing
-
-### 1. Technology Evolution
-- Monitor trends
-- Plan updates
-- Maintain compatibility
-- Document changes
-
-### 2. Scalability
-- Growth planning
-- Resource allocation
-- Performance optimization
-- System integration
-
-Remember: These best practices are guidelines that should be adapted to specific needs while maintaining technical accuracy and professional standards.
+Remember: These best practices should be adapted to specific domain requirements while maintaining the standardized structure and technical accuracy. Regular review and updates ensure prompts remain current with evolving technology and industry practices.

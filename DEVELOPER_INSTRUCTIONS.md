@@ -36,7 +36,13 @@ technical-role-prompts/
 │   ├── cloud/
 │   ├── mobile/
 │   ├── design/
-│   └── emerging-tech/
+│   ├── emerging-tech/
+│   ├── devops-sre/
+│   ├── security/
+│   ├── data-analytics/
+│   ├── cloud-infrastructure/
+│   ├── mobile-frontend/
+│   └── design-accessibility/
 └── docs/                   # Documentation
     ├── usage-guide.md
     └── best-practices.md
@@ -85,7 +91,13 @@ technical-role-prompts/
 
 2. **Content Structure**
    - Follow the template in CONTRIBUTING.md
-   - Include all required sections
+   - Include all required sections:
+     * Directive
+     * Key Responsibilities
+     * Input Requirements
+     * Output Approach
+     * Constraints
+     * Interaction Style
    - Use consistent formatting
 
 3. **Quality Standards**
@@ -93,18 +105,22 @@ technical-role-prompts/
    - Accurate technical information
    - Comprehensive coverage of role
    - Practical example interactions
+   - Domain-specific terminology
+   - Consistent structure across roles
 
 ## Documentation
 
 1. **Updating Docs**
-   - Keep README.md current
+   - Keep README.md current with new domains
    - Update usage-guide.md with new features
    - Maintain best-practices.md
+   - Document domain-specific guidelines
 
 2. **Documentation Style**
    - Clear and concise
    - Include examples
    - Use proper Markdown formatting
+   - Maintain consistent terminology
 
 ## Testing
 
@@ -112,17 +128,20 @@ technical-role-prompts/
    - Test with target AI system
    - Verify all sections work as intended
    - Check for consistent behavior
+   - Validate domain-specific accuracy
 
 2. **Documentation Testing**
    - Verify all links work
    - Ensure formatting is correct
    - Check for completeness
+   - Validate cross-references
 
 ## Support
 
 - Open issues for bugs or suggestions
 - Use pull request discussions for changes
 - Reference documentation for standards
+- Seek domain expert review when needed
 
 ## Release Process
 
@@ -130,11 +149,13 @@ technical-role-prompts/
    - Update version numbers
    - Review changes
    - Update documentation
+   - Verify domain coverage
 
 2. **Creating Release**
    - Merge to main branch
    - Tag release version
    - Update release notes
+   - Document new capabilities
 
 ## Maintenance
 
@@ -142,10 +163,12 @@ technical-role-prompts/
    - Review open issues
    - Update documentation
    - Check for outdated content
+   - Monitor domain evolution
 
 2. **Quality Checks**
    - Verify formatting
    - Test prompts
    - Review documentation
+   - Validate domain accuracy
 
-Remember to always follow the contribution guidelines and maintain high-quality standards in all submissions.
+Remember to always follow the contribution guidelines and maintain high-quality standards in all submissions. Each role prompt should accurately represent its domain's best practices and current industry standards.

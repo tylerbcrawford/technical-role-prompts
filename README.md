@@ -1,7 +1,7 @@
 # Technical Role Prompts Collection
-🚀 Introducing the Technical Role Prompts Collection: A groundbreaking framework featuring 60 meticulously crafted AI interaction prompts across 9 essential technical domains! This comprehensive collection represents the perfect fusion of structured methodology and practical application, enabling precise, role-specific AI interactions for modern technical teams. Whether you're a Solution Architect, Data Scientist, or Blockchain Developer, each prompt is engineered for optimal AI engagement! 🎯
+🚀 Introducing the Technical Role Prompts Collection: A groundbreaking framework featuring 63 meticulously crafted AI interaction prompts across 15 essential technical domains! This comprehensive collection represents the perfect fusion of structured methodology and practical application, enabling precise, role-specific AI interactions for modern technical teams. Whether you're a DevOps Engineer, Security Architect, or Mobile UX Engineer, each prompt is engineered for optimal AI engagement! 🎯
 
-🌟 What sets this collection apart is its unique blend of technical depth and practical usability. Built on a foundation of consistent structure while maintaining role-specific precision, it's more than just a collection of prompts – it's a complete framework for technical AI interaction! From Technical Writing to Emerging Tech, each role is carefully designed with clear directives, responsibilities, and interaction patterns. Ready to revolutionize your technical communication? Let's elevate AI collaboration to new heights! 💡✨ The future of technical AI interaction starts here! 🔮
+🌟 What sets this collection apart is its unique blend of technical depth and practical usability. Built on a foundation of consistent structure while maintaining role-specific precision, it's more than just a collection of prompts – it's a complete framework for technical AI interaction! From Technical Writing to Design & Accessibility, each role is carefully designed with clear directives, responsibilities, and interaction patterns. Ready to revolutionize your technical communication? Let's elevate AI collaboration to new heights! 💡✨ The future of technical AI interaction starts here! 🔮
 
 ## Overview
 
@@ -20,7 +20,13 @@ technical-role-prompts/
 │   ├── cloud/
 │   ├── mobile/
 │   ├── design/
-│   └── emerging-tech/
+│   ├── emerging-tech/
+│   ├── devops-sre/
+│   ├── security/
+│   ├── data-analytics/
+│   ├── cloud-infrastructure/
+│   ├── mobile-frontend/
+│   └── design-accessibility/
 └── docs/
     ├── usage-guide.md
     └── best-practices.md
@@ -74,6 +80,43 @@ technical-role-prompts/
    - Smart contracts
    - Quantum computing
    - AI ethics
+
+10. **DevOps/SRE**
+    - DevOps engineering
+    - Site reliability
+    - Infrastructure automation
+    - Release management
+    - Configuration management
+
+11. **Security**
+    - Security architecture
+    - Security engineering
+    - Penetration testing
+    - Security analysis
+    - Compliance
+    - Identity access management
+
+12. **Data & Analytics**
+    - Business intelligence
+    - Data visualization
+    - Natural language processing
+    - ETL development
+    - Data quality
+
+13. **Cloud Infrastructure**
+    - Cloud migration
+    - Multi-cloud strategy
+    - Cloud platform engineering
+
+14. **Mobile & Frontend**
+    - Mobile security
+    - Mobile UX
+    - Mobile performance
+
+15. **Design & Accessibility**
+    - User research
+    - Visual design
+    - Accessibility design
 
 ## Getting Started
 
