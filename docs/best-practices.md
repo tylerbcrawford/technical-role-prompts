@@ -1,222 +1,247 @@
 # Best Practices
 
-This document outlines the best practices for creating, maintaining, and using technical role prompts.
+This guide outlines best practices for using the Technical Role Prompts Collection effectively in your development workflow.
 
-## Prompt Creation
+## Core Principles
 
-### 1. Role Definition
-- Follow the standardized 6-part structure
-- Be specific and focused
-- Define clear boundaries
-- Include essential responsibilities
-- Specify required technical knowledge
+### 1. Role Clarity
+- Use each role for its intended purpose
+- Don't mix responsibilities
+- Maintain clear boundaries
+- Follow established patterns
 
-### 2. Content Structure
-```markdown
-# Role Title
+### 2. Effective Communication
+- Be specific in requests
+- Provide necessary context
+- State constraints clearly
+- Include relevant details
 
-1. DIRECTIVE
-- Clear primary focus
-- Specific specialization
-- Role responsibility scope
+### 3. Systematic Approach
+- Follow defined workflows
+- Document decisions
+- Review regularly
+- Maintain consistency
 
-2. KEY RESPONSIBILITIES
-- Task-oriented
-- Measurable outcomes
-- Technical specificity
-- Domain alignment
+## Working with the Core Development Duo
 
-3. INPUT REQUIREMENTS
-- Required information
-- Context needs
-- Technical prerequisites
-- Domain-specific inputs
+### Software Engineer Best Practices
 
-4. OUTPUT APPROACH
-- Response methodology
-- Solution patterns
-- Technical depth
-- Domain standards
+1. **Implementation Requests**
+   - Specify requirements clearly
+   - Include acceptance criteria
+   - Mention constraints
+   - Reference related code
 
-5. CONSTRAINTS
-- Technical limitations
-- Scope boundaries
-- Compliance requirements
-- Domain restrictions
+2. **Problem Solving**
+   - Describe the issue clearly
+   - Provide error messages
+   - Include reproduction steps
+   - Mention environment details
 
-6. INTERACTION STYLE
-- Communication approach
-- Technical language
-- Response format
-- Domain conventions
+3. **Code Quality**
+   - Request tests
+   - Ask for documentation
+   - Specify performance requirements
+   - Include error handling
+
+### Technical Architect Best Practices
+
+1. **Design Requests**
+   - State system requirements
+   - Specify scale expectations
+   - Include performance needs
+   - Mention security requirements
+
+2. **Technology Decisions**
+   - List requirements
+   - Specify constraints
+   - Include future considerations
+   - Mention team capabilities
+
+3. **Review Requests**
+   - Provide context
+   - State concerns
+   - Include specific areas
+   - Mention critical aspects
+
+## Common Patterns
+
+### 1. Feature Development
+
+```
+# Good Pattern
+1. Architect: Design the feature
+2. Engineer: Implement core functionality
+3. Architect: Review implementation
+4. Engineer: Refine based on feedback
+5. Both: Final review
+
+# Avoid
+- Skipping design phase
+- Mixing responsibilities
+- Incomplete reviews
+- Poor documentation
 ```
 
-### 3. Writing Style
-- Use technical terminology accurately
-- Maintain professional tone
-- Be clear and unambiguous
-- Include specific examples
-- Follow domain conventions
+### 2. Problem Resolution
 
-## Domain-Specific Guidelines
+```
+# Good Pattern
+1. Engineer: Investigate issue
+2. Architect: Assess impact
+3. Both: Discuss solutions
+4. Engineer: Implement fix
+5. Architect: Validate solution
 
-### 1. Technical Writing
-- Focus on documentation standards
-- Include content strategy
-- Address knowledge management
-- Maintain clarity
+# Avoid
+- Rushing to implementation
+- Skipping impact analysis
+- Missing documentation
+- Incomplete testing
+```
 
-### 2. Architecture
-- Emphasize system design
-- Include integration patterns
-- Address scalability
-- Consider enterprise context
+## Anti-Patterns to Avoid
 
-### 3. Innovation
-- Focus on research methodology
-- Include prototype development
-- Address technology evaluation
-- Consider future trends
+### 1. Role Confusion
 
-### 4. Support
-- Emphasize problem resolution
-- Include service management
-- Address user assistance
-- Consider system reliability
+❌ **Don't**
+- Ask Engineer for architecture decisions
+- Ask Architect for implementation details
+- Mix responsibilities
+- Skip proper workflow
 
-### 5. Data Science
-- Focus on analytical methods
-- Include machine learning
-- Address data processing
-- Consider statistical rigor
+✅ **Do**
+- Respect role boundaries
+- Follow established patterns
+- Maintain clear communication
+- Document decisions
 
-### 6. Cloud
-- Emphasize cloud patterns
-- Include service models
-- Address operations
-- Consider security
+### 2. Poor Communication
 
-### 7. Mobile
-- Focus on platform specifics
-- Include development patterns
-- Address user experience
-- Consider performance
+❌ **Don't**
+- Provide vague requirements
+- Skip context
+- Assume knowledge
+- Rush decisions
 
-### 8. Design
-- Emphasize user interface
-- Include interaction patterns
-- Address visual design
-- Consider usability
+✅ **Do**
+- Be specific
+- Include context
+- Ask questions
+- Document clearly
 
-### 9. Emerging Tech
-- Focus on innovation
-- Include ethical considerations
-- Address emerging patterns
-- Consider future impact
+### 3. Workflow Issues
 
-### 10. DevOps/SRE
-- Emphasize automation
-- Include reliability practices
-- Address operational excellence
-- Consider scalability
+❌ **Don't**
+- Skip design phase
+- Rush implementation
+- Avoid documentation
+- Miss reviews
 
-### 11. Security
-- Focus on security patterns
-- Include compliance
-- Address threat modeling
-- Consider risk management
+✅ **Do**
+- Follow process
+- Document decisions
+- Review regularly
+- Maintain quality
 
-### 12. Data Analytics
-- Emphasize data insights
-- Include visualization
-- Address data quality
-- Consider business impact
+## Success Patterns
 
-### 13. Cloud Infrastructure
-- Focus on cloud platforms
-- Include migration strategies
-- Address multi-cloud
-- Consider optimization
+### 1. Clear Requirements
 
-### 14. Mobile Frontend
-- Emphasize mobile security
-- Include UX patterns
-- Address performance
-- Consider user needs
+```markdown
+# Good Example
+"Implement user authentication with:
+- JWT tokens
+- Password hashing
+- Rate limiting
+- Error handling"
 
-### 15. Design Accessibility
-- Focus on inclusivity
-- Include research methods
-- Address accessibility standards
-- Consider user diversity
+# Poor Example
+"Add authentication"
+```
 
-## Technical Accuracy
+### 2. Proper Context
 
-### 1. Knowledge Validation
-- Verify technical information
-- Cross-reference industry standards
-- Keep technology references current
-- Include version specifications
-- Follow domain best practices
+```markdown
+# Good Example
+"Design a caching solution considering:
+- Current load: 1M requests/day
+- Growth: 20% monthly
+- Data size: 500MB
+- Update frequency: hourly"
 
-### 2. Role Alignment
-- Match industry expectations
-- Reflect current practices
-- Include emerging trends
-- Consider regional variations
-- Align with domain standards
+# Poor Example
+"Add caching"
+```
 
-### 3. Technical Depth
-- Appropriate complexity level
-- Balanced breadth vs. depth
-- Clear prerequisite knowledge
-- Progressive skill development
-- Domain-specific expertise
+### 3. Effective Feedback
 
-## Maintenance
-
-### 1. Regular Updates
-- Review technical content
-- Update technology references
-- Refresh example interactions
-- Incorporate feedback
-- Monitor domain evolution
-
-### 2. Version Control
-- Track changes
-- Document updates
-- Maintain changelog
-- Version numbering
-- Domain alignment
-
-### 3. Quality Assurance
-- Technical review
-- Peer validation
-- User feedback
-- Performance testing
-- Domain expertise verification
-
-## Implementation
-
-### 1. Context Setting
-- Clear role boundaries
-- Technical environment
-- Project scope
-- Success criteria
-- Domain context
-
-### 2. Integration
-- System compatibility
-- Performance optimization
+```markdown
+# Good Example
+"Review implementation focusing on:
+- Security measures
 - Error handling
-- Response validation
-- Domain standards compliance
+- Performance
+- Code structure"
 
-### 3. Testing
-- Functionality verification
-- Edge case handling
-- Response consistency
-- Technical accuracy
-- Domain-specific scenarios
+# Poor Example
+"Review code"
+```
 
-Remember: These best practices should be adapted to specific domain requirements while maintaining the standardized structure and technical accuracy. Regular review and updates ensure prompts remain current with evolving technology and industry practices.
+## Quality Checklist
+
+### For Engineer Tasks
+- [ ] Clear requirements
+- [ ] Defined acceptance criteria
+- [ ] Test requirements
+- [ ] Performance expectations
+- [ ] Error handling needs
+- [ ] Documentation requirements
+
+### For Architect Tasks
+- [ ] System requirements
+- [ ] Scale expectations
+- [ ] Performance needs
+- [ ] Security requirements
+- [ ] Future considerations
+- [ ] Team constraints
+
+## Documentation Guidelines
+
+1. **Design Decisions**
+   - Document rationale
+   - Include alternatives
+   - Note constraints
+   - Record trade-offs
+
+2. **Implementation Notes**
+   - Document approach
+   - Note key decisions
+   - Include examples
+   - Add troubleshooting
+
+3. **Review Comments**
+   - Be specific
+   - Provide examples
+   - Include resources
+   - Suggest improvements
+
+## Continuous Improvement
+
+1. **Regular Reviews**
+   - Review patterns
+   - Update documentation
+   - Refine processes
+   - Share learnings
+
+2. **Knowledge Sharing**
+   - Document solutions
+   - Share patterns
+   - Record decisions
+   - Update guides
+
+3. **Process Refinement**
+   - Gather feedback
+   - Identify improvements
+   - Update workflows
+   - Measure results

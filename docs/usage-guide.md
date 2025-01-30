@@ -1,182 +1,183 @@
 # Usage Guide
 
-This guide explains how to effectively use the technical role prompts in this repository.
+This guide helps you get started with the Technical Role Prompts Collection and shows you how to effectively use the different roles in your development workflow.
 
 ## Getting Started
 
-1. **Choose Your Role**
-   - Navigate to the appropriate domain directory in `prompts/`
-   - Select the specific role prompt that matches your needs
-   - Review the role description and requirements
+### 1. Understanding the Core Development Duo
 
-2. **Understanding Prompt Structure**
-   Each prompt follows a standardized 6-part structure:
-   - Directive: Primary focus and specialization
-   - Key Responsibilities: Core duties and tasks
-   - Input Requirements: Required information and context
-   - Output Approach: Response style and methodology
-   - Constraints: Limitations and boundaries
-   - Interaction Style: Communication approach
+The collection is centered around two primary roles:
 
-3. **Available Domains**
-   ```
-   technical-role-prompts/prompts/
-   ├── technical-writing/     # Documentation and content
-   ├── architecture/         # System and solution architecture
-   ├── innovation/          # Research and development
-   ├── support/             # Technical support and reliability
-   ├── data-science/        # Data analysis and ML
-   ├── cloud/              # Cloud solutions and operations
-   ├── mobile/             # Mobile development
-   ├── design/             # UX and UI design
-   ├── emerging-tech/      # Blockchain, quantum, AI ethics
-   ├── devops-sre/         # DevOps and site reliability
-   ├── security/           # Security and compliance
-   ├── data-analytics/     # BI and data visualization
-   ├── cloud-infrastructure/ # Cloud platforms and migration
-   ├── mobile-frontend/    # Mobile security and UX
-   └── design-accessibility/ # User research and accessibility
-   ```
+#### Software Engineer
+- Your implementation partner
+- Handles coding tasks
+- Focuses on practical implementation
+- Works with concrete solutions
 
-## Implementation Steps
+#### Technical Architect
+- Your design guide
+- Makes architectural decisions
+- Focuses on system design
+- Works with abstract concepts
 
-1. **Setup**
-   ```
-   1. Copy the entire prompt content
-   2. Prepare your AI system
-   3. Configure any necessary context or parameters
-   ```
+### 2. Basic Workflow
 
-2. **Integration**
-   ```
-   1. Input the prompt into your AI system
-   2. Verify the AI understands the role
-   3. Test with basic interactions
-   ```
+1. **Start with the Right Role**
+   - Use Engineer for implementation tasks
+   - Use Architect for design decisions
+   - Combine both for complex features
 
-3. **Validation**
-   ```
-   1. Check responses against example interactions
-   2. Verify technical accuracy
-   3. Ensure role adherence
-   ```
+2. **Be Specific**
+   - Provide clear requirements
+   - Include relevant context
+   - Specify constraints
+   - Mention related systems
+
+3. **Iterate as Needed**
+   - Start with high-level design (Architect)
+   - Move to implementation (Engineer)
+   - Review and refine (Both)
+
+## Common Use Cases
+
+### 1. New Feature Development
+
+```
+# Step 1: Architecture Design
+User -> Architect: "Design a user authentication system"
+Architect: Provides system design and requirements
+
+# Step 2: Implementation
+User -> Engineer: "Implement the authentication system"
+Engineer: Creates the implementation
+
+# Step 3: Review
+User -> Architect: "Review the implementation"
+Architect: Reviews and suggests improvements
+```
+
+### 2. Problem Solving
+
+```
+# Step 1: Problem Analysis
+User -> Engineer: "Investigate slow page load"
+Engineer: Identifies technical issues
+
+# Step 2: Solution Design
+User -> Architect: "Design solution for performance"
+Architect: Provides optimization strategy
+
+# Step 3: Implementation
+User -> Engineer: "Implement performance fixes"
+Engineer: Applies optimizations
+```
 
 ## Best Practices
 
-1. **Role Alignment**
-   - Use prompts that closely match your needs
-   - Don't modify core role characteristics
-   - Maintain technical accuracy
-   - Respect domain boundaries
+### 1. Role Selection
 
-2. **Context Management**
-   - Provide clear project context
-   - Maintain conversation focus
-   - Reset context when changing topics
-   - Include domain-specific requirements
+- Use Engineer for:
+  * Writing code
+  * Debugging issues
+  * Implementing features
+  * Writing tests
+  * Performance optimization
 
-3. **Interaction Guidelines**
-   - Start with role-specific queries
-   - Use domain-appropriate terminology
-   - Follow the standardized structure
-   - Provide required inputs
+- Use Architect for:
+  * System design
+  * Technology choices
+  * Standards setting
+  * Architecture review
+  * Scaling strategies
 
-## Customization
+### 2. Communication Tips
 
-1. **Acceptable Modifications**
-   - Project-specific details
-   - Company-specific terminology
-   - Additional technical requirements
-   - Domain-specific standards
+- Be clear and specific
+- Provide context
+- State constraints
+- Mention dependencies
+- Include requirements
 
-2. **Maintaining Integrity**
-   - Keep core role definitions
-   - Preserve technical accuracy
-   - Maintain 6-part structure
-   - Follow domain conventions
+### 3. Workflow Tips
 
-## Troubleshooting
-
-1. **Common Issues**
-   - Inconsistent responses
-   - Off-role behavior
-   - Technical inaccuracies
-   - Domain misalignment
-
-2. **Solutions**
-   - Reset conversation context
-   - Verify prompt implementation
-   - Review role requirements
-   - Check domain specifications
+- Start with design
+- Break down complex tasks
+- Review regularly
+- Document decisions
+- Test thoroughly
 
 ## Advanced Usage
 
-1. **Role Combinations**
-   - Combining complementary roles
-   - Managing multiple prompts
-   - Maintaining role clarity
-   - Cross-domain integration
+### 1. Combining Roles
 
-2. **System Integration**
-   - API implementation
-   - Continuous interaction
-   - Response handling
-   - Domain-specific workflows
+```
+User: "We need to add a payment system"
 
-## Performance Optimization
+# Architecture Phase
+Architect: Design payment flow and integration
 
-1. **Response Quality**
-   - Clear query formulation
-   - Context management
-   - Technical specificity
-   - Domain expertise alignment
+# Implementation Phase
+Engineer: Implement payment processing
 
-2. **Efficiency**
-   - Focused interactions
-   - Proper context setting
-   - Role-appropriate queries
-   - Domain-specific optimization
+# Review Phase
+Architect: Review security measures
+Engineer: Implement improvements
+```
 
-## Security Considerations
+### 2. Using Supporting Roles
 
-1. **Data Protection**
-   - Sensitive information handling
-   - Compliance requirements
-   - Access controls
-   - Domain-specific security
+- Add Technical Writer for documentation
+- Include DevOps Engineer for deployment
+- Engage Support Engineer for maintenance
 
-2. **Best Practices**
-   - Information sanitization
-   - Credential management
-   - Security boundary maintenance
-   - Role-specific safeguards
+### 3. Specialized Scenarios
 
-## Support and Resources
+- Cloud Architecture
+- Security Implementation
+- Data Processing
+- Mobile Development
+- UI/UX Design
 
-1. **Getting Help**
-   - GitHub issues
-   - Documentation
-   - Community support
-   - Domain experts
+## Troubleshooting
 
-2. **Additional Resources**
-   - Best practices guide
-   - Role documentation
-   - Technical references
-   - Domain-specific guides
+### Common Issues
 
-## Version Control
+1. **Unclear Requirements**
+   - Break down the problem
+   - Ask specific questions
+   - Get concrete examples
 
-1. **Prompt Updates**
-   - Version tracking
-   - Change documentation
-   - Backward compatibility
-   - Domain evolution
+2. **Complex Problems**
+   - Start with architecture
+   - Break into smaller tasks
+   - Review incrementally
 
-2. **Migration Guide**
-   - Version differences
-   - Update procedures
-   - Compatibility notes
-   - Domain transitions
+3. **Integration Challenges**
+   - Review system design
+   - Check dependencies
+   - Test thoroughly
 
-Remember to regularly check for updates and improvements to the prompts to ensure you're using the most current and effective versions. Each domain may have specific considerations and best practices that should be followed for optimal results.
+## Tips for Success
+
+1. **Start Small**
+   - Begin with simple tasks
+   - Learn role capabilities
+   - Build complexity gradually
+
+2. **Document Everything**
+   - Keep design docs
+   - Record decisions
+   - Maintain examples
+
+3. **Regular Reviews**
+   - Check progress
+   - Validate solutions
+   - Refine approach
+
+## Next Steps
+
+1. Review example workflows
+2. Try simple tasks
+3. Explore specialized roles
+4. Build complex solutions
+5. Share your experiences
