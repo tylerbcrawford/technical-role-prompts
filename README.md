@@ -6,7 +6,7 @@ A comprehensive collection of AI role prompts designed to make complex technical
 
 The Technical Role Prompts Collection is designed to make AI assistance in software development more accessible and effective. We focus on core development roles that provide the foundation for successful software projects.
 
-### The Core Development Duo
+### The Core Development Team
 
 #### Software Engineer
 Your coding companion for daily development tasks
@@ -14,7 +14,7 @@ Your coding companion for daily development tasks
 - Focuses on implementation and coding
 - Handles feature development, bug fixing, and optimization
 - Works closely with Technical Architect for guidance
-- [See Examples](examples/starter-guide/engineer-architect-workflow.md#feature-implementation-workflow)
+- [See Examples](docs/examples/basic/engineer-architect-workflow.md#feature-implementation-workflow)
 
 #### Technical Architect
 Your design partner for technical decisions
@@ -22,7 +22,7 @@ Your design partner for technical decisions
 - Focuses on system design and guidance
 - Makes architectural decisions
 - Sets technical standards
-- [See Examples](examples/starter-guide/engineer-architect-workflow.md#problem-solving-workflow)
+- [See Examples](docs/examples/basic/engineer-architect-workflow.md#problem-solving-workflow)
 
 ### Working Together
 
@@ -32,14 +32,26 @@ The Engineer and Architect roles are designed to complement each other:
 - Efficient collaboration patterns
 - Proven workflow examples
 
-[See detailed workflow examples](examples/starter-guide/engineer-architect-workflow.md)
+[See detailed workflow examples](docs/examples/basic/engineer-architect-workflow.md)
 
 ### Supporting Roles
 
-Beyond the core duo, we offer additional roles to support your development needs:
-- [Technical Writer](prompts/supporting/technical-writer.md) - Documentation and communication
-- [DevOps Engineer](prompts/supporting/devops-engineer.md) - Infrastructure and deployment
-- [Technical Support Engineer](prompts/supporting/technical-support-engineer.md) - Production support
+Beyond the core team, we offer additional roles to support your development needs:
+
+#### Documentation & Communication
+- [Technical Writer](prompts/supporting/documentation/technical-writer.md)
+- [Documentation Specialist](prompts/supporting/documentation/documentation-specialist.md)
+- [Content Strategist](prompts/supporting/documentation/content-strategist.md)
+
+#### DevOps & Infrastructure
+- [DevOps Engineer](prompts/supporting/devops/devops-engineer.md)
+- [Site Reliability Engineer](prompts/supporting/devops/site-reliability-engineer.md)
+- [Infrastructure Engineer](prompts/supporting/devops/infrastructure-engineer.md)
+
+#### Technical Support
+- [Technical Support Engineer](prompts/supporting/support/technical-support-engineer.md)
+- [System Reliability Specialist](prompts/supporting/support/system-reliability-specialist.md)
+- [Production Support Specialist](prompts/supporting/support/production-support-specialist.md)
 
 ## 🎓 Advanced Collections
 
@@ -60,11 +72,21 @@ For specialized needs, explore our domain-specific collections:
 - [UI/UX Design](prompts/specialized/design/)
 - [Frontend Architecture](prompts/specialized/mobile/)
 
+### Innovation & Research
+- [Research Engineering](prompts/specialized/innovation/)
+- [Prototype Development](prompts/specialized/innovation/)
+- [Technology Research](prompts/specialized/innovation/)
+
+### Emerging Technologies
+- [Blockchain Development](prompts/specialized/emerging-tech/)
+- [AI Ethics](prompts/specialized/emerging-tech/)
+- [Quantum Computing](prompts/specialized/emerging-tech/)
+
 ## 📚 Documentation
 
-- [Usage Guide](docs/usage-guide.md) - Getting started with the collection
-- [Best Practices](docs/best-practices.md) - Tips for effective usage
-- [Common Scenarios](examples/starter-guide/common-scenarios.md) - Real-world examples
+- [Usage Guide](docs/guides/getting-started.md) - Getting started with the collection
+- [Best Practices](docs/guides/best-practices.md) - Tips for effective usage
+- [Common Scenarios](docs/guides/common-scenarios.md) - Real-world examples
 
 ## 🤝 Contributing
 
@@ -76,7 +98,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📖 Learning Path
 
-1. Start with the Core Development Duo
+1. Start with the Core Development Team
    - Learn basic Engineer + Architect workflow
    - Practice with example scenarios
    - Build confidence with core patterns
@@ -93,10 +115,10 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 🔍 Quick Links
 
-- [Engineer + Architect Workflow](examples/starter-guide/engineer-architect-workflow.md)
-- [Common Usage Scenarios](examples/starter-guide/common-scenarios.md)
-- [Best Practices Guide](docs/best-practices.md)
-- [Advanced Role Combinations](examples/advanced/)
+- [Engineer + Architect Workflow](docs/examples/basic/engineer-architect-workflow.md)
+- [Common Usage Scenarios](docs/guides/common-scenarios.md)
+- [Best Practices Guide](docs/guides/best-practices.md)
+- [Advanced Role Combinations](docs/examples/advanced/)
 
 ## 📝 License
 
