@@ -1,6 +1,12 @@
 # Technical Role Prompts Collection
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Documentation](https://img.shields.io/badge/docs-up%20to%20date-brightgreen.svg)](docs/guides/getting-started.md)
+
 A comprehensive collection of AI role prompts designed to make complex technical roles more approachable and practical. This collection focuses on essential development roles while providing a clear path from beginner to advanced usage.
+
+> 🔄 **Project Status**: Undergoing prompt enhancement phase - adding Quick Start and Enhanced sections to all roles
 
 ## 🚀 Getting Started: Essential Development Roles
 
@@ -44,14 +50,14 @@ Beyond the core team, we offer additional roles to support your development need
 - [Content Strategist](prompts/supporting/documentation/content-strategist.md)
 
 #### DevOps & Infrastructure
-- [DevOps Engineer](prompts/supporting/devops/devops-engineer.md)
-- [Site Reliability Engineer](prompts/supporting/devops/site-reliability-engineer.md)
-- [Infrastructure Engineer](prompts/supporting/devops/infrastructure-engineer.md)
+- [DevOps Engineer](prompts/supporting/devops-engineer.md)
+- [Site Reliability Engineer](prompts/supporting/site-reliability-engineer.md)
+- [Infrastructure Engineer](prompts/supporting/infrastructure-engineer.md)
 
 #### Technical Support
-- [Technical Support Engineer](prompts/supporting/support/technical-support-engineer.md)
-- [System Reliability Specialist](prompts/supporting/support/system-reliability-specialist.md)
-- [Production Support Specialist](prompts/supporting/support/production-support-specialist.md)
+- [Technical Support Engineer](prompts/supporting/technical-support-engineer.md)
+- [System Reliability Specialist](prompts/supporting/system-reliability-specialist.md)
+- [Production Support Specialist](prompts/supporting/production-support-specialist.md)
 
 ## 🎓 Advanced Collections
 
@@ -84,7 +90,7 @@ For specialized needs, explore our domain-specific collections:
 
 ## 📚 Documentation
 
-- [Usage Guide](docs/guides/getting-started.md) - Getting started with the collection
+- [Getting Started Guide](docs/guides/getting-started.md) - Quick start with the collection
 - [Best Practices](docs/guides/best-practices.md) - Tips for effective usage
 - [Common Scenarios](docs/guides/common-scenarios.md) - Real-world examples
 
@@ -123,3 +129,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+## Keywords
+ai prompts, technical roles, software development, engineering prompts, architect prompts, devops prompts, cloud computing, data science, mobile development, technical documentation, system design, infrastructure, security, emerging technologies, machine learning, blockchain, quantum computing, technical support, site reliability engineering

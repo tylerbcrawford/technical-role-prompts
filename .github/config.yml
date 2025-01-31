@@ -1,0 +1,53 @@
+# Repository Configuration
+
+repository:
+  # Repository Description (appears under the repo name on GitHub)
+  description: "A comprehensive collection of AI role prompts for technical roles in software development, from core engineering to specialized domains."
+  
+  # Topics (help people find your repository)
+  topics:
+    - ai-prompts
+    - software-development
+    - technical-roles
+    - engineering
+    - architecture
+    - devops
+    - cloud-computing
+    - data-science
+    - machine-learning
+    - mobile-development
+    - security
+    - documentation
+    - best-practices
+    - technical-writing
+    - system-design
+    - infrastructure
+    - emerging-tech
+    - blockchain
+    - quantum-computing
+    - ai-ethics
+
+  # Social Preview Settings
+  social_preview:
+    title: "Technical Role Prompts Collection"
+    description: "Make complex technical roles more approachable with our comprehensive AI prompt collection"
+    image: "../docs/assets/social-preview.png"  # You'll need to add this image
+
+# Issue Templates Configuration
+issue_template:
+  - name: Bug Report
+    about: Create a report to help us improve
+    labels: bug
+    
+  - name: Feature Request
+    about: Suggest a new role or enhancement
+    labels: enhancement
+    
+  - name: Documentation Update
+    about: Propose improvements to documentation
+    labels: documentation
+
+# Pull Request Template Configuration
+pull_request_template:
+  name: Pull Request
+  about: Contribute to the Technical Role Prompts Collection
