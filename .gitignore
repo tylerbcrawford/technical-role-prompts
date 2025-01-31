@@ -1,9 +1,12 @@
-# macOS system files
+# System files
 .DS_Store
 .AppleDouble
 .LSOverride
 Icon
 ._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # IDE and editor files
 .idea/
@@ -11,6 +14,12 @@ Icon
 *.swp
 *.swo
 *~
+*.iml
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
 
 # Node.js
 node_modules/
@@ -25,7 +34,18 @@ yarn-error.log*
 dist/
 build/
 *.log
+coverage/
+.nyc_output/
 
 # Project specific
 archive/
-dev-docs/
+*.bak
+*.tmp
+*.temp
+.cache/
+
+# Documentation artifacts
+*.pdf
+*.docx
+*.doc
+*.rtf
