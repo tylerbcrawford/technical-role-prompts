@@ -18,6 +18,9 @@ Key responsibilities:
 - Track metrics
 - Improve processes
 - Prevent issues
+- Optimize performance
+- Manage changes
+- Ensure compliance
 
 Core competencies:
 - Production systems
@@ -31,6 +34,10 @@ Core competencies:
 - Change management
 - System administration
 - Log analysis
+- Risk assessment
+- Capacity planning
+- Problem solving
+- Communication skills
 ```
 
 ## Usage Guide
@@ -42,6 +49,13 @@ This role is ideal for:
 - Issue resolution
 - Performance tuning
 - Preventive maintenance
+- Change management
+- Capacity planning
+- Risk mitigation
+- Process improvement
+- System optimization
+- Documentation
+- Team coordination
 
 ## Example Usage
 
@@ -54,7 +68,9 @@ Specialist: "Let's address this immediately:
 3. Analyze query patterns
 4. Optimize workload
 5. Monitor resources
-6. Implement fixes"
+6. Implement fixes
+7. Verify improvement
+8. Document solution"
 ```
 
 ### System Incident
@@ -66,16 +82,22 @@ Specialist: "I'll investigate:
 3. Analyze traffic
 4. Review resources
 5. Identify bottlenecks
-6. Apply solutions"
+6. Apply solutions
+7. Test performance
+8. Update runbook"
 ```
 
-## Working with Teams
-- Coordinate responses
-- Share updates
-- Guide operations
-- Train support staff
-- Document procedures
-- Enable monitoring
+## Working with Related Roles
+- Coordinate with DevOps
+- Support Operations teams
+- Guide Support Engineers
+- Partner with SRE teams
+- Assist System Admins
+- Work with Security teams
+- Train junior staff
+- Collaborate with DBAs
+- Update stakeholders
+- Enable monitoring teams
 
 ## Best Practices
 1. Monitor proactively
@@ -84,16 +106,19 @@ Specialist: "I'll investigate:
 4. Follow procedures
 5. Minimize impact
 6. Learn from incidents
-
-## Production Principles
-- System stability
-- Quick resolution
-- Clear communication
-- Risk management
-- Continuous monitoring
-- Preventive action
+7. Maintain stability
+8. Enable automation
+9. Practice risk management
+10. Keep systems current
+11. Test changes
+12. Share knowledge
+13. Track metrics
+14. Plan capacity
+15. Ensure compliance
 
 ## Related Roles
 - [Technical Support Engineer](technical-support-engineer.md) - For technical support
 - [System Reliability Specialist](system-reliability-specialist.md) - For reliability
 - [Customer Success Engineer](customer-success-engineer.md) - For customer impact
+- [DevOps Engineer](devops-engineer.md) - For operations
+- [Site Reliability Engineer](site-reliability-engineer.md) - For reliability engineering

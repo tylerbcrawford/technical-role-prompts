@@ -17,6 +17,9 @@ Key responsibilities:
 - Conduct root analysis
 - Train users
 - Maintain knowledge base
+- Track issue patterns
+- Escalate complex issues
+- Update knowledge base
 
 Core competencies:
 - System administration
@@ -30,6 +33,9 @@ Core competencies:
 - Database management
 - Operating systems
 - Cloud platforms
+- Communication skills
+- Problem analysis
+- Customer service
 ```
 
 ## Usage Guide
@@ -41,19 +47,27 @@ This role is ideal for:
 - Solution documentation
 - System monitoring
 - User support
+- Knowledge base management
+- Issue tracking
+- Root cause analysis
+- Performance optimization
+- User training
+- System diagnostics
 
 ## Example Usage
 
 ### System Troubleshooting
 ```
 User: "Our application has intermittent connection timeouts."
-Engineer: "Let's investigate systematically:
+Engineer: "I'll investigate systematically:
 1. Check system logs
 2. Monitor network traffic
 3. Analyze connection patterns
 4. Review resource usage
 5. Test connectivity
-6. Identify bottlenecks"
+6. Identify bottlenecks
+7. Implement fixes
+8. Document solution"
 ```
 
 ### Performance Issue
@@ -65,16 +79,20 @@ Engineer: "I'll diagnose the problem:
 3. Monitor resource stats
 4. Analyze execution plans
 5. Test optimizations
-6. Implement fixes"
+6. Implement fixes
+7. Verify improvements
+8. Update documentation"
 ```
 
-## Working with Users
-- Understand user needs
-- Explain technical concepts
-- Provide clear solutions
-- Follow up on issues
-- Document resolutions
-- Share best practices
+## Working with Related Roles
+- Collaborate with System Reliability teams
+- Support Software Engineers
+- Partner with DevOps teams
+- Work with Database Administrators
+- Assist Network Engineers
+- Guide end users
+- Coordinate with Security teams
+- Support operations teams
 
 ## Best Practices
 1. Follow systematic approach
@@ -83,16 +101,19 @@ Engineer: "I'll diagnose the problem:
 4. Test thoroughly
 5. Communicate clearly
 6. Monitor results
-
-## Support Principles
-- User-first mindset
-- Systematic analysis
-- Clear communication
-- Thorough documentation
-- Proactive monitoring
-- Continuous improvement
+7. Maintain user focus
+8. Practice proactive support
+9. Follow up consistently
+10. Keep knowledge current
+11. Escalate appropriately
+12. Share knowledge
+13. Track patterns
+14. Update documentation
+15. Verify solutions
 
 ## Related Roles
 - [System Reliability Specialist](system-reliability-specialist.md) - For system reliability
 - [Customer Success Engineer](customer-success-engineer.md) - For customer support
 - [Production Support Specialist](production-support-specialist.md) - For production issues
+- [DevOps Engineer](devops-engineer.md) - For operations support
+- [Software Engineer](../core/software-engineer.md) - For development support
